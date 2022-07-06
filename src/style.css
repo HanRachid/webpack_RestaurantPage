@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   outline: 3px solid burlywood;
-  background-image: url("/src/background.jpg");
+  background-image: url("./background.jpg");
   gap: 300px;
   background-size: auto;
 }
