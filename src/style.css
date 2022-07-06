@@ -1,0 +1,78 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 3px solid burlywood;
+  background-image: url("/src/background.jpg");
+  gap: 300px;
+  background-size: auto;
+}
+
+#menus {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  gap: 30px;
+  height: 80px;
+  width: 90px;
+}
+
+#menus > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: beige;
+  outline: 3px solid beige;
+  padding: 10px;
+}
+.leftclass {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  height: 80vh;
+  width: 35vw;
+}
+.leftrectangle {
+  height: 80vh;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightclass {
+  height: 80vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.blok {
+  width: 70%;
+  height: 25%;
+  font-family: monospace;
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imaj {
+  height: 90%;
+  width: 90%;
+}
+.lorem {
+  color: rgb(236, 223, 204);
+  padding: 50px;
+
+  font-weight: bolder;
+  font-family: fantasy;
+  font-stretch: ultra-expanded;
+}
